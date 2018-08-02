@@ -1,4 +1,688 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://borntobegeek.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://borntobegeek.me/" rel="alternate" type="text/html" /><updated>2018-06-29T08:00:00+02:00</updated><id>http://borntobegeek.me/</id><title type="html">born to be geek.</title><subtitle>Hello there! My name is Adam. I made this site to document my journey as I am trying to become a full-time indie iOS developer.</subtitle><entry><title type="html">What I’ve Learned from Making my First App</title><link href="http://borntobegeek.me/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App.html" rel="alternate" type="text/html" title="What I've Learned from Making my First App" /><published>2018-06-28T12:30:29+02:00</published><updated>2018-06-28T12:30:29+02:00</updated><id>http://borntobegeek.me/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App</id><content type="html" xml:base="http://borntobegeek.me/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App.html">&lt;p&gt;On June 9, 2018, at about 2:30 AM I was woken up by a huge thunderstorm. I am a pretty good sleeper typically, but this time I couldn’t go back to sleep. For some weird reason the idea of an app came into my mind. It was a silly little thought, but I just couldn’t let go of it. It was the perfect app idea I was looking for: fun, had a very easily defined audience, it was fresh and topical, and the best: it was incredibly simple! I, with my limited coding experience, could probably finish it in a few hours. After an hour of sleeplessness, I decided that 3:30 AM is the best time to sneak out of bed, go into our dining room, open my laptop (RIP my eyes) and start a new Xcode project.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-24T08:21:29+02:00</updated><id>http://localhost:4000/</id><title type="html">born to be geek.</title><subtitle>Hello there! My name is Adam. I made this site to document my journey as I am trying to become a full-time indie iOS developer.</subtitle><entry><title type="html">Software Testing Notes</title><link href="http://localhost:4000/development/2018/07/23/Software-Testing-Notes.html" rel="alternate" type="text/html" title="Software Testing Notes" /><published>2018-07-23T11:14:29+02:00</published><updated>2018-07-23T11:14:29+02:00</updated><id>http://localhost:4000/development/2018/07/23/Software-Testing-Notes</id><content type="html" xml:base="http://localhost:4000/development/2018/07/23/Software-Testing-Notes.html">&lt;h1 id=&quot;software-testing-notes&quot;&gt;Software Testing Notes&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software-quality&quot;&gt;Software Quality&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;explanation&quot;&gt;Explanation&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Explicit: defined and documented&lt;/li&gt;
+  &lt;li&gt;Implicit: indirectly suggested&lt;/li&gt;
+  &lt;li&gt;Requirements: business requirements&lt;/li&gt;
+  &lt;li&gt;Expectations: end-user expectations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;according-to-istqb&quot;&gt;According to ISTQB&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Quality: The degree to which a component, system or process meets specified requirements
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dimensions-of-software-quality&quot;&gt;Dimensions of Software Quality&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Accessibility&lt;/li&gt;
+  &lt;li&gt;Compatibility&lt;/li&gt;
+  &lt;li&gt;Concurrency&lt;/li&gt;
+  &lt;li&gt;Efficiency&lt;/li&gt;
+  &lt;li&gt;Functionality&lt;/li&gt;
+  &lt;li&gt;Installability&lt;/li&gt;
+  &lt;li&gt;Localizability&lt;/li&gt;
+  &lt;li&gt;Maintainability&lt;/li&gt;
+  &lt;li&gt;Performance&lt;/li&gt;
+  &lt;li&gt;Portability&lt;/li&gt;
+  &lt;li&gt;Reliability&lt;/li&gt;
+  &lt;li&gt;Scalability&lt;/li&gt;
+  &lt;li&gt;Security&lt;/li&gt;
+  &lt;li&gt;Testability&lt;/li&gt;
+  &lt;li&gt;Usability
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-quality-assurance&quot;&gt;Software Quality Assurance&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A set of activities ensuring the quality in the software engineering process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;sqa-activities&quot;&gt;SQA Activities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Process definition and implementation&lt;/li&gt;
+  &lt;li&gt;Auditing&lt;/li&gt;
+  &lt;li&gt;Training&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;sqa-processes&quot;&gt;SQA Processes&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Software Development Methodology&lt;/li&gt;
+  &lt;li&gt;Project Management&lt;/li&gt;
+  &lt;li&gt;Requirements Managament&lt;/li&gt;
+  &lt;li&gt;Software Design&lt;/li&gt;
+  &lt;li&gt;Testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;sqa-responsibilities&quot;&gt;SQA Responsibilities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identify weaknesses in the processes&lt;/li&gt;
+  &lt;li&gt;Correcting the weaknesses to improve the processes
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-quality-control&quot;&gt;Software Quality Control&lt;/h3&gt;
+&lt;h4 id=&quot;sqc-activities&quot;&gt;SQC Activities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reviews:
+    &lt;ul&gt;
+      &lt;li&gt;Requirement&lt;/li&gt;
+      &lt;li&gt;Design&lt;/li&gt;
+      &lt;li&gt;Code&lt;/li&gt;
+      &lt;li&gt;Deployment Plan&lt;/li&gt;
+      &lt;li&gt;Test Plan&lt;/li&gt;
+      &lt;li&gt;Test Cases&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing:
+    &lt;ul&gt;
+      &lt;li&gt;Unit&lt;/li&gt;
+      &lt;li&gt;Integration&lt;/li&gt;
+      &lt;li&gt;System&lt;/li&gt;
+      &lt;li&gt;Acceptance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;difference-between-sqa-and-sqc&quot;&gt;Difference between SQA and SQC&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;SQA is oriented towards prevention, SQC is oriented towards detection
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;verification-vs-validation&quot;&gt;Verification vs. Validation&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Verification: ensuring that a product is being built according to design specs. Are we building the product &lt;em&gt;right&lt;/em&gt;?&lt;/li&gt;
+  &lt;li&gt;Validation: ensuring that the product actually meets users’ needs, and that the specs were right in the first place. Are we building the &lt;em&gt;right&lt;/em&gt; product?
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software-development-life-cycle&quot;&gt;Software Development Life Cycle&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sdlc-types&quot;&gt;SDLC Types&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Waterfall model&lt;/li&gt;
+  &lt;li&gt;Spiral model&lt;/li&gt;
+  &lt;li&gt;Iterative and incremental development (Unified Process)&lt;/li&gt;
+  &lt;li&gt;Agile (Extreme Programming, Scrum)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sdlc-steps&quot;&gt;SDLC Steps&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Project Planning&lt;/li&gt;
+  &lt;li&gt;Requirements Development&lt;/li&gt;
+  &lt;li&gt;Estimation&lt;/li&gt;
+  &lt;li&gt;Scheduling&lt;/li&gt;
+  &lt;li&gt;Design&lt;/li&gt;
+  &lt;li&gt;Coding&lt;/li&gt;
+  &lt;li&gt;Test Build&lt;/li&gt;
+  &lt;li&gt;Unit Testing&lt;/li&gt;
+  &lt;li&gt;Integration Testing&lt;/li&gt;
+  &lt;li&gt;User Documentation&lt;/li&gt;
+  &lt;li&gt;System Testing&lt;/li&gt;
+  &lt;li&gt;Acceptance Testing&lt;/li&gt;
+  &lt;li&gt;Production Build/Deployment&lt;/li&gt;
+  &lt;li&gt;Release&lt;/li&gt;
+  &lt;li&gt;Maintenance
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-testing-life-cycle&quot;&gt;Software Testing Life Cycle&lt;/h3&gt;
+&lt;h4 id=&quot;stlc-steps&quot;&gt;STLC Steps&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Requirements/Design Review&lt;/li&gt;
+  &lt;li&gt;Test Planning&lt;/li&gt;
+  &lt;li&gt;Test Designing&lt;/li&gt;
+  &lt;li&gt;Test Environment Setup&lt;/li&gt;
+  &lt;li&gt;Test Execution&lt;/li&gt;
+  &lt;li&gt;Test Reporting
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;levels-of-testing&quot;&gt;Levels of Testing&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;unit-testing&quot;&gt;Unit Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Individual units/components are tested.&lt;/li&gt;
+  &lt;li&gt;A unit is the smallest testable part of the software, with usually one input and one output, usually a method or function&lt;/li&gt;
+  &lt;li&gt;Unit testing frameworks, drivers, stubs and mock objects are often used&lt;/li&gt;
+  &lt;li&gt;Method: White-box&lt;/li&gt;
+  &lt;li&gt;Who: normally the developer or peer&lt;/li&gt;
+  &lt;li&gt;Benefits:
+    &lt;ul&gt;
+      &lt;li&gt;increases confidence in changing/maintaining code&lt;/li&gt;
+      &lt;li&gt;make codes more reusable&lt;/li&gt;
+      &lt;li&gt;development is faster&lt;/li&gt;
+      &lt;li&gt;cost of fixing defects is less&lt;/li&gt;
+      &lt;li&gt;easy debugging&lt;/li&gt;
+      &lt;li&gt;more reliable code&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;integration-testing&quot;&gt;Integration Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Individual units are combined and tested as a group.&lt;/li&gt;
+  &lt;li&gt;Purpose: to expose faults in the interaction between the integrated units&lt;/li&gt;
+  &lt;li&gt;Method: any, Black, Gray or White Box&lt;/li&gt;
+  &lt;li&gt;Approaches:
+    &lt;ul&gt;
+      &lt;li&gt;Big Bang: all or most of the units combined together and tested in one go&lt;/li&gt;
+      &lt;li&gt;Top-down: top-level units are tested first. Test-stubs are needed to simulate lower level units&lt;/li&gt;
+      &lt;li&gt;Bottom-up: bottom-level units are tested first. Test-drivers may be needed to simulate higher-level units&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Who: Devs or testers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;system-testing&quot;&gt;System Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The complete integrated software is tested.&lt;/li&gt;
+  &lt;li&gt;Purpose: to evaluate the systems compliance with the specified requirements&lt;/li&gt;
+  &lt;li&gt;Method: Black Box, structured&lt;/li&gt;
+  &lt;li&gt;Who: Testers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acceptance-testing&quot;&gt;Acceptance Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The system is tested for acceptability, and compliance with business requirements&lt;/li&gt;
+  &lt;li&gt;Method: Black Box, ad-hoc&lt;/li&gt;
+  &lt;li&gt;Who:
+    &lt;ul&gt;
+      &lt;li&gt;Internal (Alpha): members of the development organization, typically members of Product Management, Sales or Customer Support&lt;/li&gt;
+      &lt;li&gt;External:
+        &lt;ul&gt;
+          &lt;li&gt;Customer Acceptance Testing&lt;/li&gt;
+          &lt;li&gt;User Acceptance Testing
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;methods-of-testing&quot;&gt;Methods of Testing&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;black-box-testing&quot;&gt;Black Box Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;AKA Behavioral Testing&lt;/li&gt;
+  &lt;li&gt;The internal structure of the system is not known to the tester&lt;/li&gt;
+  &lt;li&gt;Usually functional&lt;/li&gt;
+  &lt;li&gt;This method attempts to find errors in the following categories
+    &lt;ul&gt;
+      &lt;li&gt;incorrect or missing functions&lt;/li&gt;
+      &lt;li&gt;interface errors&lt;/li&gt;
+      &lt;li&gt;errors in data structures or external database access&lt;/li&gt;
+      &lt;li&gt;behavior or performance errors&lt;/li&gt;
+      &lt;li&gt;initialization and termination errors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Levels: integration, system, acceptance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;techniques&quot;&gt;Techniques&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Equivalence Partitioning: dividing input values into valid and invalid categories and selecting representative values as test data&lt;/li&gt;
+  &lt;li&gt;Boundary Value Analysis: selecting values that are just inside/outside of the boundaries as test data&lt;/li&gt;
+  &lt;li&gt;Cause-Effect Graphing: producing a Cause-Effect graph by identifying the input and output conditions and generating the test cases accordingly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;advantages&quot;&gt;Advantages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exposes discrepancies in the specs&lt;/li&gt;
+  &lt;li&gt;No programming knowledge required&lt;/li&gt;
+  &lt;li&gt;Tester group can be independent&lt;/li&gt;
+  &lt;li&gt;Test cases can be designed ASA the specs are complete&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;disadvantages&quot;&gt;Disadvantages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Small number of inputs can be tested&lt;/li&gt;
+  &lt;li&gt;W/O clear specs test cases are difficult to design&lt;/li&gt;
+  &lt;li&gt;Tests can be redundant
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;white-box-testing&quot;&gt;White Box Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The internal structure of the system is known to the tester&lt;/li&gt;
+  &lt;li&gt;It is testing beyond the UI, into the nitty-gritty of the system&lt;/li&gt;
+  &lt;li&gt;Levels: &lt;strong&gt;unit&lt;/strong&gt;, integration, system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;advantages-1&quot;&gt;Advantages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Testing can begin early&lt;/li&gt;
+  &lt;li&gt;Testing is more thorough&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;disadvantages-1&quot;&gt;Disadvantages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tests can be complex, programmer knowledge is required&lt;/li&gt;
+  &lt;li&gt;Test script maintenance can be a burden&lt;/li&gt;
+  &lt;li&gt;Tools may not be readily available
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gray-box-testing&quot;&gt;Gray Box Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Combination of White and Black Box&lt;/li&gt;
+  &lt;li&gt;The internal structure of the software is partly known&lt;/li&gt;
+  &lt;li&gt;Levels: integration
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ad-hoc-testing&quot;&gt;Ad-hoc Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;AKA Monkey Test&lt;/li&gt;
+  &lt;li&gt;Random input&lt;/li&gt;
+  &lt;li&gt;levels: acceptance
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;types-of-tests&quot;&gt;Types of Tests&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;smoke-test&quot;&gt;Smoke Test&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;AKA Build Verification Testing&lt;/li&gt;
+  &lt;li&gt;Ensures that the most important functions work&lt;/li&gt;
+  &lt;li&gt;It helps decide if a build is stable enough for further testing&lt;/li&gt;
+  &lt;li&gt;Covers most of the major functions but none of them in depth&lt;/li&gt;
+  &lt;li&gt;If builds are frequent, best to automate this test&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;advantages-2&quot;&gt;Advantages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exposes integration issues&lt;/li&gt;
+  &lt;li&gt;Uncovers problems early&lt;/li&gt;
+  &lt;li&gt;Provides confidence, that changes haven’t affected major areas
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;functional-testing&quot;&gt;Functional Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The system is tested against functional requirements/specs&lt;/li&gt;
+  &lt;li&gt;Functions are tested by feeding them input and examining the output&lt;/li&gt;
+  &lt;li&gt;Inspects the output, not how it is generated&lt;/li&gt;
+  &lt;li&gt;Method: Black Box&lt;/li&gt;
+  &lt;li&gt;Levels: system and acceptance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;typical-steps&quot;&gt;Typical Steps&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identify the function the software is expected to perform&lt;/li&gt;
+  &lt;li&gt;Create input data&lt;/li&gt;
+  &lt;li&gt;Determine expected output&lt;/li&gt;
+  &lt;li&gt;Execute&lt;/li&gt;
+  &lt;li&gt;Compare
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;usability-testing&quot;&gt;Usability Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Performed from the end-user’s perspective&lt;/li&gt;
+  &lt;li&gt;Tests: how understandable, easy to use/operate, attractive the software is
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;security-testing&quot;&gt;Security Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Purpose: find vulnerabilities&lt;/li&gt;
+  &lt;li&gt;Focus areas:
+    &lt;ul&gt;
+      &lt;li&gt;Network security&lt;/li&gt;
+      &lt;li&gt;System software security&lt;/li&gt;
+      &lt;li&gt;Client-side application security&lt;/li&gt;
+      &lt;li&gt;Server-side application security
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Determines how a system performs under load&lt;/li&gt;
+  &lt;li&gt;Test environment should be as close to production env. as possible&lt;/li&gt;
+  &lt;li&gt;Test multiple times, and arrive at an average&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;types&quot;&gt;Types&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Load Testing: behavior at increasing workload&lt;/li&gt;
+  &lt;li&gt;Stress Testing: behavior beyond the limits of anticipated workload&lt;/li&gt;
+  &lt;li&gt;Endurance Testing: behavior under sustained heavy workload&lt;/li&gt;
+  &lt;li&gt;Spike Testing: behavior when load is suddenly and substantially increased
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;regression-testing&quot;&gt;Regression Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ensures that changes had no adverse effect&lt;/li&gt;
+  &lt;li&gt;Previously created test cases are re-executed&lt;/li&gt;
+  &lt;li&gt;Levels: all, but most relevant during system testing
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compliance-testing&quot;&gt;Compliance Testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Determines the compliance of the system w/ internal or external standards
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;testing-artifacts&quot;&gt;Testing Artifacts&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;test-plan&quot;&gt;Test Plan&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A document describing the scope and activities of testing&lt;/li&gt;
+  &lt;li&gt;Identifies:
+    &lt;ul&gt;
+      &lt;li&gt;the features to be tested&lt;/li&gt;
+      &lt;li&gt;testing tasks&lt;/li&gt;
+      &lt;li&gt;personnel&lt;/li&gt;
+      &lt;li&gt;degree of tester independence&lt;/li&gt;
+      &lt;li&gt;test environment&lt;/li&gt;
+      &lt;li&gt;test design techniques&lt;/li&gt;
+      &lt;li&gt;entry and exit criteria&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;test-plan-types&quot;&gt;Test Plan Types&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Master Test Plan: high-level, unifies all other test plans&lt;/li&gt;
+  &lt;li&gt;Testing Level Specific Test Plans:
+    &lt;ul&gt;
+      &lt;li&gt;Unit Test Plan&lt;/li&gt;
+      &lt;li&gt;Integration Test Plan&lt;/li&gt;
+      &lt;li&gt;System Test Plan&lt;/li&gt;
+      &lt;li&gt;Acceptance Test Plan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing Type Specific Test: plans for major types of testing like Performance Test Plan and Security Test Plan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;test-plan-template&quot;&gt;Test Plan Template&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Test Items&lt;/li&gt;
+  &lt;li&gt;Features to be Tested&lt;/li&gt;
+  &lt;li&gt;Approach&lt;/li&gt;
+  &lt;li&gt;Pass/Fail Criteria&lt;/li&gt;
+  &lt;li&gt;Test Deliverables&lt;/li&gt;
+  &lt;li&gt;Test Environment&lt;/li&gt;
+  &lt;li&gt;Estimate&lt;/li&gt;
+  &lt;li&gt;Schedule&lt;/li&gt;
+  &lt;li&gt;Staffing/Training&lt;/li&gt;
+  &lt;li&gt;Responsibilites
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;test-case&quot;&gt;Test Case&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A set of conditions under which the tester will determine if the system works correctly&lt;/li&gt;
+  &lt;li&gt;Make test cases “atomic”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;test-case-template&quot;&gt;Test Case Template&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Test Suite ID&lt;/li&gt;
+  &lt;li&gt;Test Case ID&lt;/li&gt;
+  &lt;li&gt;Test Case Summary&lt;/li&gt;
+  &lt;li&gt;Prerequisites&lt;/li&gt;
+  &lt;li&gt;Test Procedure (step by step instructions)&lt;/li&gt;
+  &lt;li&gt;Test Data&lt;/li&gt;
+  &lt;li&gt;Expected result&lt;/li&gt;
+  &lt;li&gt;Actual result&lt;/li&gt;
+  &lt;li&gt;Status&lt;/li&gt;
+  &lt;li&gt;Remarks&lt;/li&gt;
+  &lt;li&gt;Created, Executed By&lt;/li&gt;
+  &lt;li&gt;Date
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;test-script&quot;&gt;Test Script&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;a set of instructions written in a scripting language to test if a system performs as espected
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;defects&quot;&gt;Defects&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;defect--bug&quot;&gt;Defect / Bug&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;an error in coding or logic which produces incorrect results&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;classification&quot;&gt;Classification&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Severity/Impact&lt;/li&gt;
+  &lt;li&gt;Probability/Visibility&lt;/li&gt;
+  &lt;li&gt;Priority/Urgency&lt;/li&gt;
+  &lt;li&gt;Related Dimension of Quality&lt;/li&gt;
+  &lt;li&gt;Related Module/Component&lt;/li&gt;
+  &lt;li&gt;Phase Detected&lt;/li&gt;
+  &lt;li&gt;Phase Injected
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-severity&quot;&gt;Defect Severity&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The degree of impact a defect has on development or operation of a component/system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;classification-1&quot;&gt;Classification&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Critical: complete failure&lt;/li&gt;
+  &lt;li&gt;Major: has difficult workaround&lt;/li&gt;
+  &lt;li&gt;Minor: has easy workaround&lt;/li&gt;
+  &lt;li&gt;Trivial: does not affect functionality or data
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-probability&quot;&gt;Defect Probability&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Likelihood of a user encountering the bug
+    &lt;ul&gt;
+      &lt;li&gt;High: almost all users&lt;/li&gt;
+      &lt;li&gt;Medium: about 50%&lt;/li&gt;
+      &lt;li&gt;Low: very few
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-priority&quot;&gt;Defect Priority&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The urgency of fixing a defect&lt;/li&gt;
+  &lt;li&gt;Priority is subjective, the following will be considered:
+    &lt;ul&gt;
+      &lt;li&gt;Business need&lt;/li&gt;
+      &lt;li&gt;Defect Severity&lt;/li&gt;
+      &lt;li&gt;Defect Probability&lt;/li&gt;
+      &lt;li&gt;Available Resources and Time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;classification-2&quot;&gt;Classification&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Urgent: needs to be fixed in the next build&lt;/li&gt;
+  &lt;li&gt;High: needs to be fixed in upcoming builds&lt;/li&gt;
+  &lt;li&gt;Medium: may be fixed after release / in the next release&lt;/li&gt;
+  &lt;li&gt;Low: may or may not be fixed at all
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-life-cycle&quot;&gt;Defect Life Cycle&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The journey of a defect from identification to its closure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://softwaretestingfundamentals.com/wp-content/uploads/2010/12/Defect_Life_Cycle.jpg&quot; alt=&quot;Bug Life Cycle&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;status&quot;&gt;Status&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;New&lt;/li&gt;
+  &lt;li&gt;Assigned/Open&lt;/li&gt;
+  &lt;li&gt;Deferred&lt;/li&gt;
+  &lt;li&gt;Dropped/Rejected&lt;/li&gt;
+  &lt;li&gt;Completed/Fixed/Resolved/Test&lt;/li&gt;
+  &lt;li&gt;Reassigned/Reopened&lt;/li&gt;
+  &lt;li&gt;Closed/Verified
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-report&quot;&gt;Defect Report&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A document that describes a defect detected by the tester&lt;/li&gt;
+  &lt;li&gt;It’s important to
+    &lt;ul&gt;
+      &lt;li&gt;Be
+        &lt;ul&gt;
+          &lt;li&gt;specific&lt;/li&gt;
+          &lt;li&gt;detailed&lt;/li&gt;
+          &lt;li&gt;objective&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Reproduce the defect&lt;/li&gt;
+      &lt;li&gt;Review the report&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;template&quot;&gt;Template&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;ID&lt;/li&gt;
+  &lt;li&gt;Product&lt;/li&gt;
+  &lt;li&gt;Release Version&lt;/li&gt;
+  &lt;li&gt;Module&lt;/li&gt;
+  &lt;li&gt;Build&lt;/li&gt;
+  &lt;li&gt;Summary&lt;/li&gt;
+  &lt;li&gt;Description&lt;/li&gt;
+  &lt;li&gt;Steps to Replicate&lt;/li&gt;
+  &lt;li&gt;Expected Results&lt;/li&gt;
+  &lt;li&gt;Actual Results&lt;/li&gt;
+  &lt;li&gt;Remarks&lt;/li&gt;
+  &lt;li&gt;Defect Severity&lt;/li&gt;
+  &lt;li&gt;Defect Priority&lt;/li&gt;
+  &lt;li&gt;Reported By&lt;/li&gt;
+  &lt;li&gt;Assigned To&lt;/li&gt;
+  &lt;li&gt;Status&lt;/li&gt;
+  &lt;li&gt;Fixed Build Version
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metrics&quot;&gt;Metrics&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;defect-age&quot;&gt;Defect Age&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Measured in:
+    &lt;ul&gt;
+      &lt;li&gt;Defect Age in Time = Defect Fix Date – Defect Detection Date&lt;/li&gt;
+      &lt;li&gt;Defect Age in Phase = Defect Detection Phase – Defect Injection Phase
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-density&quot;&gt;Defect Density&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://softwaretestingfundamentals.com/wp-content/uploads/2010/12/defect_density.jpg&quot; alt=&quot;Defect Density Formula&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Size is measured in one of the following:
+    &lt;ul&gt;
+      &lt;li&gt;Function Points&lt;/li&gt;
+      &lt;li&gt;Lines of Code
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defect-detection-efficiency&quot;&gt;Defect Detection Efficiency&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://softwaretestingfundamentals.com/wp-content/uploads/2011/01/dde1.jpg&quot; alt=&quot;DDE Formula&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The closer to 100% is the better
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cost-of-quality&quot;&gt;Cost of Quality&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sums up the cost of prevention vs. occurence of defects&lt;/li&gt;
+  &lt;li&gt;Made up of the following:
+    &lt;ul&gt;
+      &lt;li&gt;Cost of Control: prevention&lt;/li&gt;
+      &lt;li&gt;Cost of Failure of Control
+        &lt;ul&gt;
+          &lt;li&gt;Internal Failure Cost: cost of defects identified internally and efforts to correct them&lt;/li&gt;
+          &lt;li&gt;External Failure Cost: cost of defects identified by the client&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://softwaretestingfundamentals.com/wp-content/uploads/2012/08/Cost_of_Quality-COQ.gif&quot; alt=&quot;COQ&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Software Testing Notes</summary></entry><entry><title type="html">What I’ve Learned from Making my First App</title><link href="http://localhost:4000/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App.html" rel="alternate" type="text/html" title="What I've Learned from Making my First App" /><published>2018-06-28T12:30:29+02:00</published><updated>2018-06-28T12:30:29+02:00</updated><id>http://localhost:4000/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App</id><content type="html" xml:base="http://localhost:4000/development/2018/06/28/What-Ive-Learned-from-Making-my-First-App.html">&lt;p&gt;On June 9, 2018, at about 2:30 AM I was woken up by a huge thunderstorm. I am a pretty good sleeper typically, but this time I couldn’t go back to sleep. For some weird reason the idea of an app came into my mind. It was a silly little thought, but I just couldn’t let go of it. It was the perfect app idea I was looking for: fun, had a very easily defined audience, it was fresh and topical, and the best: it was incredibly simple! I, with my limited coding experience, could probably finish it in a few hours. After an hour of sleeplessness, I decided that 3:30 AM is the best time to sneak out of bed, go into our dining room, open my laptop (RIP my eyes) and start a new Xcode project.&lt;/p&gt;
 
 &lt;p&gt;The idea was this: there was this really fun rating scale, called the Ticci Scale, invented by &lt;a href=&quot;https://twitter.com/viticci&quot;&gt;Federico Viticci&lt;/a&gt; on &lt;a href=&quot;http://relay.fm/connected/193&quot;&gt;ep. 193 of the Connected podcast&lt;/a&gt;, which was made into an amazing &lt;a href=&quot;https://twitter.com/rhl__/status/996873140243501056?lang=en&quot;&gt;art piece&lt;/a&gt; by the awesome &lt;a href=&quot;https://www.klmatthews.com&quot;&gt;Kate Matthews&lt;/a&gt;; so what if you could rate things on the Ticci Scale from an app and then send your rating with the iOS share sheet to any other app? The idea of an iMessage app quickly followed. This was the basic concept when I started working on it.&lt;/p&gt;
 
@@ -34,6 +718,7 @@
 
 &lt;p&gt;I have a folder of dead Xcode projects. All of my previous ideas were too complex for the level I’m at.
 But now:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;I’ve finally finished a project,&lt;/li&gt;
   &lt;li&gt;I’ve learned a lot from it, and written code I can reuse in other projects,&lt;/li&gt;
