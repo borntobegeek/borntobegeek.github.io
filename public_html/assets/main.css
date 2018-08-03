@@ -11,8 +11,9 @@
   font-family: 'RobotoMono-BoldItalic';
   src: url("/assets/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf") format("truetype"); }
 @font-face {
-  font-family: 'RobotoMono-Medium';
-  src: url("/assets/fonts/Roboto_Mono/RobotoMono-Medium.ttf") format("truetype"); }
+  font-family: 'FiraCode-Retina';
+  src: url("/assets/fonts/Fira_Code/FiraCode-Retina.ttf") format("truetype"); }
+  
 /**
  * Reset some basic elements
  */
@@ -122,7 +123,7 @@ blockquote {
 pre,
 code {
   font-size: 15.9375px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Code', "FiraCode-Retina", 'Roboto Mono', "RobotoMono-Regular", monospace;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #FFFFFF; }
@@ -211,7 +212,7 @@ table {
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: #189091;
-  font-family: 'RobotoMono-Medium', monospace;
+  font-family: Roboto Mono, 'RobotoMono-Medium', monospace;
   font-size: 34px;
   font-weight: 400;
   line-height: 57.375px;
