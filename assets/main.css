@@ -13,6 +13,9 @@
 @font-face {
   font-family: 'RobotoMono-Medium';
   src: url("/assets/fonts/Roboto_Mono/RobotoMono-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FiraCode-Retina';
+  src: url("/assets/fonts/Fira_Code/FiraCode-Retina.ttf") format("truetype"); }
 /**
  * Reset some basic elements
  */
@@ -26,7 +29,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 17px/1.5 "RobotoMono-Regular", -apple-system, Helvetica, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 17px/1.5 "Roboto Mono", "RobotoMono-Regular", -apple-system, Helvetica, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -122,7 +125,7 @@ blockquote {
 pre,
 code {
   font-size: 15.9375px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Code', "FiraCode-Retina", 'Roboto Mono', "RobotoMono-Regular", monospace;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #FFFFFF; }
